@@ -3,12 +3,24 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "dotenv": "^17.3.1"
+    "@langchain/core": "^1.1.26",
+    "@langchain/langgraph": "^1.1.5",
+    "@langchain/ollama": "^1.2.3",
+    "dotenv": "^17.3.1",
+    "langchain": "^1.2.25",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
   }
 }
